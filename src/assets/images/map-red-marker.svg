@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="64" viewBox="0 0 58 64">
+    <defs>
+        <filter id="lc7o59yhna" width="160%" height="152.2%" x="-30%" y="-26.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.88235295 0 0 0 0 0.23529412 0 0 0 0 0.23529412 0 0 0 0.31764707 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#E43232">
+            <g filter="url(#lc7o59yhna)" transform="translate(-359 -830) translate(368 839)">
+                <circle cx="19.995" cy="19.863" r="12.006" fill-rule="nonzero"/>
+                <path d="M34.102 5.843C30.334 2.075 25.324 0 19.995 0c-5.33 0-10.34 2.075-14.107 5.843C2.119 9.612.044 14.622.044 19.951c0 9.401 6.573 17.518 15.704 19.496l4.247 5.663 4.247-5.663c9.131-1.978 15.704-10.095 15.704-19.496 0-5.33-2.075-10.34-5.844-14.108zm-14.107-.635c8.08 0 14.654 6.574 14.654 14.655 0 8.08-6.574 14.654-14.654 14.654S5.341 27.943 5.341 19.863 11.915 5.208 19.995 5.208z"/>
+            </g>
+        </g>
+    </g>
+</svg>
